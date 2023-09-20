@@ -1,0 +1,34 @@
+// Importe de Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&family=Staatliches&display=swap');
+// Variables (Paleta de Colores y Fuentes)
+$AzulMarino : #002855;
+$AzulCielo : #87CEEB;
+$AzulCieloOscuro: #6BA5D6;
+$Blanco : #f2f2f2;
+$Negro : #111111;
+$Poppins: 'Poppins', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+$Staatliches: 'Staatliches', cursive;
+// Estilos Generales
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.Colores{
+    color: $AzulMarino;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: $Roboto;
+}
+img{
+    width: 100%;
+}

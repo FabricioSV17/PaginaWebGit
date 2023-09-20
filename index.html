@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Estilos.css">
     <title>Pagina Free</title>
 </head>
+
 <body>
-    
+    <section class="heroHeader">
+        <div class="heroHeader__Hero">
+            <img src="img/Hero.jpg" alt="">
+        </div>
+        <div class="heroHeader__contenedorPre">
+            <header class="heroHeader__contenedorPre__Encabezado">
+                <div class="heroHeader__contenedorPre__Encabezado__logo">
+                    <h2 class="heroHeader__contenedorPre__Encabezado__logo--titulo">P.<span class="Colores">W</span>.F
+                    </h2>
+                </div>
+                <nav class="heroHeader__contenedorPre__Encabezado__menu">
+                    <a href="#" class="heroHeader__contenedorPre__Encabezado__menu--enlace">Acerca de</a>
+                    <a href="#" class="heroHeader__contenedorPre__Encabezado__menu--enlace">Contacto</a>
+                    <a href="#" class="heroHeader__contenedorPre__Encabezado__menu--enlace">Ubicanos</a>
+                    <a href="#" class="heroHeader__contenedorPre__Encabezado__menu--enlace">Formulario</a>
+                </nav>
+            </header>
+            <section class="heroHeader__contenedorPre__imagen">
+                <img src="img/Fondo.svg" alt="">
+            </section>
+            <div class="heroHeader__contenedorPre__boton">
+                <a href="#" class="heroHeader__contenedorPre__boton--btn">Ver Mas!</a>
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <section class="AcercaDe">
+            <div class="AcercaDe__contenedor">
+                <h2 class="AcercaDe__contenedor--titulo">Yo Soy <span class="Colores">Pedro Velasquez</span> </h2>
+                <p class="AcercaDe__contenedor--parrafo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolorum incidunt earum, sapiente, minima cumque eveniet magnam, asperiores perferendis ipsa laudantium nihil inventore necessitatibus dolores vero fuga voluptates aut praesentium dolor. Incidunt nobis corporis tempore. Delectus harum accusamus veniam fuga. Assumenda ad cupiditate ullam tempore delectus quo eligendi veniam maxime a! Natus deleniti in odio eligendi dolor, assumenda necessitatibus placeat?
+                </p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide AcercaDe__Slider">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>

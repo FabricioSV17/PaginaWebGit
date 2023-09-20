@@ -1,3 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.Colores {
+  color: #002855;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.heroHeader {
+  background: #002855;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.heroHeader__Hero {
+  width: 50%;
+  padding: 3rem;
+}
+.heroHeader__contenedorPre {
+  padding: 3rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #6BA5D6;
+  color: #f2f2f2;
+}
+.heroHeader__contenedorPre__Encabezado {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.heroHeader__contenedorPre__Encabezado__logo--titulo {
+  font-family: "Staatliches", cursive;
+  font-size: 4.5rem;
+}
+.heroHeader__contenedorPre__Encabezado__menu--enlace {
+  font-size: 1.8rem;
+  margin: 0 1rem;
+  color: #f2f2f2;
+  font-weight: 700;
+}
+.heroHeader__contenedorPre__imagen {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroHeader__contenedorPre__imagen img {
+  width: 90%;
+}
+.heroHeader__contenedorPre__boton {
+  padding: 2rem 0;
+  text-align: center;
+}
+.heroHeader__contenedorPre__boton--btn {
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  background: #87CEEB;
+  color: #f2f2f2;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+
+.AcercaDe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+.AcercaDe__contenedor {
+  width: 50%;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.AcercaDe__contenedor--titulo {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+}
+.AcercaDe__contenedor--parrafo {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.AcercaDe__Slider {
+  width: 50%;
+}
 
 /*# sourceMappingURL=Estilos.css.map */

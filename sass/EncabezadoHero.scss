@@ -1,0 +1,71 @@
+.heroHeader {
+    background: $AzulMarino;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &__Hero {
+        width: 50%;
+        padding: 3rem;
+    }
+
+    &__contenedorPre {
+        padding: 3rem;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: $AzulCieloOscuro;
+        color: $Blanco;
+
+        &__Encabezado {
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding: 0 1rem;
+
+            &__logo {
+                &--titulo {
+                    font-family: $Staatliches;
+                    font-size: 4.5rem;
+                }
+            }
+
+            &__menu {
+                &--enlace {
+                    font-size: 1.8rem;
+                    margin: 0 1rem;
+                    color: $Blanco;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        &__imagen {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 90%;
+            }
+        }
+
+        &__boton {
+            padding: 2rem 0;
+            text-align: center;
+            &--btn {
+                padding: 1rem 2rem;
+                font-size: 2.5rem;
+                background: $AzulCielo;
+                color: $Blanco;
+                font-weight: 700;
+                border-radius: 1rem;
+            }
+        }
+    }
+}
